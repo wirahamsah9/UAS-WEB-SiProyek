@@ -1,0 +1,9 @@
+<?php $this->load->view('Home/Header', array('title' => 'Home', 'active_menu' => 'Home')); ?>
+
+<?php $this->load->view('Home/Footer'); ?>
+
+
+<link href="<?= base_url('assets/bootswatch/dist/litera/bootstrap.min.css') ?>" rel="stylesheet">
+
+
+<script src="<?= base_url('assets/bootstrap/dist/js/bootstrap.bundle.min.js') ?>"></script>
